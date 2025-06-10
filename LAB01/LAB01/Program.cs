@@ -11,7 +11,11 @@ namespace LAB01
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!!");
+            TinhThuong(10,2);
             Console.ReadLine();
+        }
+        double TinhThuong(double a, double b) {
+            return a / b;
         }
     }
 }
